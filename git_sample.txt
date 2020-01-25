@@ -1,0 +1,12 @@
+There are four possible arguments when running
+balancedsat. These are
+numVars
+The number of variables to be used. This should
+be a multiple of the number of literals in each
+clause (k).
+numClauses The number of clauses to be used. If num-
+Clauses is less than approximately 3.7*numVars
+the generated benchmark is likely to be satisfi-
+able and easy to solve. Above 3.7*numVars the
+benchmark is likely be unsatisfiable.
+
